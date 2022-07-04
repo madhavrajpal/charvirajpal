@@ -1,0 +1,147 @@
+
+.prof{
+    background-color: rgb(167, 161, 161,0.6);
+    border-radius: 10px;
+    text-align: center; 
+    align-self: center;
+    justify-self: center;
+    max-width: 500px;
+    
+ }
+ .hide{
+    display: none;
+ }
+
+ 
+ body{
+     background-image: url(./bg.jpg);
+     background-attachment: fixed;
+     background-repeat: no-repeat;
+     position: relative;
+     background-size:cover;
+ }
+ .container {
+     align-items: center;
+     align-content: center;
+     padding-top: 15%;
+     
+   }
+ 
+ .icons{
+     display: inlineblock;   
+ }
+ .tooltip {
+    position: relative;
+    display: inline-block;
+ }
+ .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    font-size: 12px;
+    background-color: transparent;
+    color: #000;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    font-family: Lexend Deca;
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 50%;
+    margin-left: -60px;
+  }
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+ i:hover{
+     transform: scale(1.8);
+     transition: transform .32s;
+     
+          
+ }
+ .fa-instagram{
+     color:black;
+ }
+ .fa-instagram:hover {
+     color: blueviolet;
+
+ }
+ .fa-envelope-open-text{
+     color:black;
+ }
+ .fa-envelope-open-text:hover{
+     color: green;
+ }
+ .fa-linkedin{
+     color:black;
+ }
+ .fa-linkedin:hover{
+     color: rgb(55, 55, 168);
+ }
+ .fa-behance{
+     color:black;
+ }
+ .fa-behance:hover{
+     color: rgb(7, 20, 108);
+ }
+ .fa-file-pdf-o{
+     color:black;
+ }
+ .fa-file-pdf-o:hover{
+     color: red;
+ }
+ #touch{
+     color: darkgray;
+ }
+ #touch:hover{
+     color: rgb(219, 85, 85);
+ }
+ #loader {
+     position: fixed;
+     width: 100%;
+     height: 100%;
+     z-index: 999;
+     display: flex;
+     background: black ;
+     margin: 0;
+    
+     
+     
+   }
+.image:hover{
+    transform: scale(1.2);
+    transition: transform .2s;
+}
+.fade-in-image {
+    animation: fadeIn 2s;
+    -webkit-animation: fadeIn 2s;
+    -moz-animation: fadeIn 2s;
+    -o-animation: fadeIn 2s;
+    -ms-animation: fadeIn 2s;
+  }
+  
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
